@@ -333,6 +333,68 @@ h1 {
     height: 200px;
 }
 
+.foot {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    background-color: #ffffff;
+    padding: 20px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.foot_dat1 {
+    padding: 20px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-right: solid 2px #000;
+}
+
+.foot_dat2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot_ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.foot_dat2 a {
+    display: flex;
+    justify-content: center;
+    background-color: #7700b7;
+    padding: 10px;
+    border-radius: 3vh;
+    margin: 20px;
+    box-shadow: 4px 4px 10px #000;
+    transition: .6s;
+    color: #fff;
+    text-shadow: 0px 0px 20px #000;
+}
+
+.foot_dat2 a:hover {
+    transform: scale(1.08);
+}
+
+.foot_ul a {
+    display: flex;
+    justify-content: center;
+    background-color: #a8dadc;
+    padding: 10px;
+    border-radius: 3vh;
+    margin: 20px;
+    box-shadow: 4px 4px 10px #000;
+    transition: .6s;
+}
+
+.foot_ul a:hover {
+    transform: scale(1.08);
+}
+
 @media (max-width:700px) {
     #nav_ul {
         flex-direction: column;
@@ -398,5 +460,19 @@ h1 {
 
     .somos iframe {
         width: 240px;
+    }
+
+    .foot {
+        gap: 20px;
+        padding: 10px;
+        text-align: center;
+        flex-direction: column;
+        font-size: 13px;
+    }
+
+    .foot_dat1 {
+        padding-right: 40px;
+        border-right: none;
+        border-bottom: solid 2px #000;
     }
 }
