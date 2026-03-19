@@ -45,15 +45,15 @@
 }
 
 body {
-    background-color: #3845fa;
+    background-color: #457B9D;
 }
 
 #body_productos {
-    background-color: #f0e053;
+    background-color: #2a9d8f;
 }
 
 #body_sabanas {
-    background-color: #e3735e;
+    background-color: #ef6f51;
 }
 
 header {
@@ -69,9 +69,9 @@ header {
     gap: 20px;
     overflow: hidden;
     width: 50px;
-    background-color: #fca400;
+    background-color: #a8dadc;
     transition: 1s;
-    border-radius: 6vh;
+    border-radius: 2vh;
     position: fixed;
     z-index: 9999;
     margin: 10px;
@@ -79,6 +79,7 @@ header {
     box-shadow: 0px 8px 20px#000;
     align-items: center;
     font-weight: 900;
+    padding-left: 10px;
 }
 
 
@@ -91,7 +92,7 @@ header {
 }
 
 #nav_img {
-    width: 50px;
+    width: 40px;
 }
 
 .nav_li {
@@ -139,15 +140,13 @@ header {
     justify-content: center;
     background-color: #fff;
     padding-bottom: 80px;
-    box-shadow: 0px 20px 30px #000;
 }
 
 h1 {
-    font-family: "Delius";
-    font-size: 680%;
+    font-family: "Courgette";
+    font-size: 80px;
     letter-spacing: 6px;
     text-align: center;
-    color: #3845fa;
     padding: 20px;
     border-radius: 2vh;
 }
@@ -164,10 +163,64 @@ h1 {
     text-align: center;
 }
 
+.importante {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    background-color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    font-weight: 800;
+}
+
+#whats {
+    background-color: #00f014;
+    padding: 10px;
+    border-radius: 6vh;
+    box-shadow: 0px 0px 20px #000;
+    font-weight: 700;
+    color: #fff;
+}
+
+.mini_nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 90px 140px;
+    gap: 40px;
+}
+
+.mini_nav a {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 2vh;
+    box-shadow: 0px 0px 20px #000;
+    font-weight: 800;
+    font-size: 30px;
+    transition: .4s;
+}
+
+.mini_nav a:hover {
+    transform: scale(1.2);
+    margin: 0px 20px;
+}
+
+.h3_prod {
+    text-align: center;
+    background-color: #ef6f51;
+    border-radius: 2vh;
+    border: solid 2px #a8dadc;
+    margin: 40px 200px;
+    color: #fff;
+    font-size: 40px;
+}
+
 .productos {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 80px;
     gap: 40px;
     align-items: center;
     justify-content: center;
@@ -183,9 +236,7 @@ h1 {
     justify-content: center;
     padding: 20px;
     gap: 10%;
-    height: 600px;
     border-radius: 6vh;
-    margin-bottom: 90px;
     box-shadow: 0px 0px 20px #000;
     transition: .3s;
     animation: entr linear;
@@ -201,53 +252,24 @@ h1 {
     font-size: 28px;
     font-family: "Courgette";
     text-align: center;
+    margin: 0px 20px;
+    margin-top: 40px;
 }
 
 .productos img {
-    width: 330px;
+    width: 230px;
     border-radius: 20px;
     box-shadow: 8px 8px 30px#000;
 }
 
-/*SABANAAAAS*/
-
-.productos_sabanas {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 80px;
-    gap: 40px;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    padding-bottom: 90px;
-}
-
-.productos_sabanas div {
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    padding: 20px;
-    gap: 10%;
-    height: 500px;
-    border-radius: 6vh;
-    margin-top: 40px;
-    transition: .3s;
-    animation: entr linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 30%;
-
-}
-
-.productos_sabanas div:hover {
-    transform: scale(1.08);
-}
-
-.productos_sabanas p {
-    font-size: 28px;
-    font-family: "Courgette";
+.h3_sabanas {
     text-align: center;
+    background-color: #2a9d8f;
+    border-radius: 2vh;
+    border: solid 2px #457B9D;
+    margin: 40px 200px;
+    color: #fff;
+    font-size: 40px;
 }
 
 .productos_sabanas img {
@@ -260,10 +282,19 @@ h1 {
 .info {
     margin: 40px;
     display: flex;
-    gap: 20%;
+    flex-direction: column;
+    row-gap: 30px;
     align-items: center;
     justify-content: center;
     font-size: 40px;
+
+}
+
+#envio {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 2vh;
+    box-shadow: 0px 0px 20px #000;
 
 }
 
@@ -279,11 +310,23 @@ h1 {
     text-align: center;
 }
 
+.motos img {
+    width: 300px;
+    border-radius: 8vh;
+    box-shadow: 0px 0px 20px #000;
+    margin-top: 20px;
+}
+
 .somos {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 40px;
+}
+
+.somos iframe {
+    width: 300px;
+    height: 200px;
 }
 
 @media (max-width:700px) {
