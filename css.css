@@ -368,7 +368,6 @@ h1 {
     justify-content: center;
     background-color: #7700b7;
     padding: 10px;
-    border-radius: 3vh;
     margin: 20px;
     box-shadow: 4px 4px 10px #000;
     transition: .6s;
@@ -385,7 +384,6 @@ h1 {
     justify-content: center;
     background-color: #a8dadc;
     padding: 10px;
-    border-radius: 3vh;
     margin: 20px;
     box-shadow: 4px 4px 10px #000;
     transition: .6s;
