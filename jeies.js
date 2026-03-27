@@ -51,7 +51,7 @@ santiWt.target = "_blank";
 santiWt.href = "https://wa.me/message/";
 
 function venta() {
-    let nombreDelVendedor = document.getElementById("vendedor").value;
+    let nombreDelVendedor = document.getElementById("vendedor").value.toLowerCase().trim();
 
     switch (nombreDelVendedor) {
         case "joaco":
