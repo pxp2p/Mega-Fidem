@@ -163,7 +163,7 @@ h1 {
     text-align: center;
 }
 
-.importante {
+#importante {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -176,15 +176,91 @@ h1 {
     font-weight: 800;
 }
 
-#whats {
-    background-color: #00f014;
+.input_nombre {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0px 0px 20px #2a9d8f;
+}
+
+.boton_enviar {
+    background-color: #2a9d8f;
+    font-size: 26px;
     padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 2vh;
+    box-shadow: 0px 0px 20px #000;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.boton_enviar:hover {
+    transform: scale(1.1);
+}
+
+#wasup {
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px #000;
+    padding: 20px;
+    margin: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    height: 100px;
+}
+
+#wasup h3 {
+    font-size: 24px;
+    box-shadow: 0px 0px 20px #2a9d8f;
+    padding: 20px;
+    border-radius: 4vh
+}
+
+.whats {
+    background-color: #00f014;
+    padding: 20px;
     border-radius: 6vh;
     box-shadow: 0px 0px 20px #000;
     font-weight: 700;
     color: #fff;
-    margin-top: 10px;
+    font-size: 30px;
+    transition: 1s;
 }
+
+.whats:hover {
+    transform: scale(1.1);
+}
+
+.ig {
+    background: linear-gradient(45deg, #d10101, #0004ff);
+    padding: 20px;
+    border-radius: 6vh;
+    box-shadow: 0px 0px 20px #000;
+    font-weight: 700;
+    color: #fff;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.ig:hover {
+    transform: scale(1.1);
+}
+
+#error {
+    background-color: #d10101;
+    padding: 20px;
+    border-radius: 6vh;
+    box-shadow: 0px 0px 20px #000;
+    font-weight: 700;
+    color: #fff;
+    font-size: 30px;
+}
+
 
 .mini_nav {
     display: flex;
@@ -211,14 +287,36 @@ h1 {
     margin: 0px 20px;
 }
 
+.descripcion {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 40px 80px 100px 0px;
+    gap: 20px;
+    padding: 20px;
+    border: solid 2px #000;
+    border-left: none;
+    border-radius: 0vh 6vh 6vh 0vh;
+    box-shadow: -10px 10px 30px #000;
+}
+
+.descripcion p {
+    font-size: 22px;
+    font-weight: 900;
+
+}
+
+/* Productos  */
+
 .h3_prod {
     text-align: center;
-    background-color: #ef6f51;
     border-radius: 2vh;
     border: solid 2px #a8dadc;
     margin: 40px 200px;
     color: #fff;
     font-size: 40px;
+    box-shadow: 8px 8px 30px#000;
 }
 
 .productos {
@@ -265,14 +363,17 @@ h1 {
     box-shadow: 8px 8px 30px#000;
 }
 
+/* SABANAAAAASSSSS */
+
 .h3_sabanas {
     text-align: center;
-    background-color: #2a9d8f;
     border-radius: 2vh;
-    border: solid 2px #457B9D;
+    border: solid 2px #fff;
     margin: 40px 200px;
     color: #fff;
     font-size: 40px;
+    padding: 5px;
+    box-shadow: 8px 8px 30px#000;
 }
 
 .productos_sabanas img {
@@ -348,9 +449,19 @@ h1 {
     padding-right: 60px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    align-items: center;
     border-right: solid 2px #000;
 }
+
+.foot_dat1 p {
+    font-weight: 900;
+}
+
+#spv {
+    color: #248377;
+}
+
+
 
 .foot_dat2 {
     display: flex;
@@ -364,14 +475,10 @@ h1 {
 }
 
 .foot_dat2 a {
-    display: flex;
     justify-content: center;
-    background-color: #7700b7;
+    color: #7700b7;
     padding: 10px;
-    margin: 20px;
-    box-shadow: 4px 4px 10px #000;
     transition: .6s;
-    color: #fff;
     text-shadow: 0px 0px 20px #000;
 }
 
@@ -379,18 +486,19 @@ h1 {
     transform: scale(1.08);
 }
 
-.foot_ul a {
+.derechos {
     display: flex;
+    align-items: center;
     justify-content: center;
-    background-color: #a8dadc;
-    padding: 10px;
-    margin: 20px;
-    box-shadow: 4px 4px 10px #000;
-    transition: .6s;
+    padding: 30px;
+    background: linear-gradient(360deg, #457B9D, #fff);
 }
 
-.foot_ul a:hover {
-    transform: scale(1.08);
+.derechos p {
+    font-weight: 400;
+    font-size: 20px;
+    text-shadow: 0px 0px 20px #fff;
+    text-align: center;
 }
 
 @media (max-width:700px) {
@@ -411,9 +519,20 @@ h1 {
         font-size: 40px;
     }
 
-    .importante {
-        height: 200px;
-        margin: 40px;
+    #importante {
+        margin: 100px 40px;
+        padding: 10px;
+        border-radius: 2vh;
+    }
+
+    .input_nombre {
+        font-size: 22px;
+    }
+
+    #wasup {
+        flex-direction: column;
+        margin: 100px 30px 100px 30px;
+        height: auto;
         border-radius: 2vh;
     }
 
@@ -462,7 +581,7 @@ h1 {
 
     .foot {
         gap: 20px;
-        padding: 10px;
+        padding: 10px 40px;
         text-align: center;
         flex-direction: column;
         font-size: 13px;
@@ -472,5 +591,9 @@ h1 {
         padding-right: 40px;
         border-right: none;
         border-bottom: solid 2px #000;
+    }
+
+    .derechos p {
+        font-size: 12px;
     }
 }

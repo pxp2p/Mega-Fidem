@@ -35,9 +35,13 @@
                 Si querías comprarte algo, llegaste al mejor lugar.
             </p>
         </div>
-        <div class="importante">
-            <p>IMPORTANTE <br> Para realizar pedido tenes que comunicarte por</p>
-            <a id="whats" href="https://wa.me/message/A4TRLPXUWPM6D1" target="_blank">whatsapp</a>
+        <div id="importante">
+            <p class="borrado">IMPORTANTE <br> Escribí el nombre de tu vendedor</p>
+            <input class="input_nombre" type="text" id="vendedor" placeholder="Nombre">
+            <button class="boton_enviar" id="whatsButton" onclick="venta()">Enviar</button>
+        </div>
+        <div id="wasup">
+
         </div>
         <div class="mini_nav">
             <a href="productos.html#sonido">
@@ -58,10 +62,12 @@
         </div>
         <section>
             <div class="descripcion">
-                <p>Nosotros somos revendedores que buscamos los mejores precios solo para vos.
-                </p>
+                <p id="spv">¡Solo para vos!</p>
+                <p>Buscamos los mejores precios que podamos</p>
+
                 <p>
-                    Ademas te lo podemos llevar a tu casa o a un punto de encuentro en común.
+                    Ademas tratamos de llevartelo a tu casa o a un punto de encuentro en común, para que no tengas que
+                    viajar tanto.
                 </p>
             </div>
         </section>
@@ -69,24 +75,21 @@
     <footer>
         <section class="foot">
             <div class="foot_dat1">
-                <p>Somos de Jose C. Paz </p>
-                <p>Podes consultar precios de reventa en el whatsapp</p>
-                <p>Nuestras redes son:</p>
-                <ul class="foot_ul">
-                    <li><a href="https://www.instagram.com/santick_16/?utm_source=ig_web_button_share_sheet">Instagram
-                            (joaco)</a></li>
-                    <li><a href="https://www.instagram.com/joaquin_pereira_07/">Instagram (Santi)</a></li>
-                </ul>
+                <p>Buscamos los mejores precios</p>
+                <p id="spv">Solo para vos</p>
+
             </div>
             <div class="foot_dat2">
-                <p>Quienes crearon la página:</p>
-                <a
-                    href="https://www.instagram.com/nexor.dev?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Nexordev,
-                    equipo de desarrollo
-                    web</a>
+                <p>Confiamos en <a target="_blank" href="https://pxp2p.github.io/nexor">Nexordev (Equipo de desarrollo
+                        web)</a> para crear nuestra página.</p>
+
             </div>
         </section>
+        <div class="derechos">
+            <p>&copy; 2026 Mega-Fidem. Todos los derechos reservados.</p>
+        </div>
     </footer>
+    <script src="jeies.js"></script>
 </body>
 
 </html>
