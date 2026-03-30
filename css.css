@@ -45,16 +45,10 @@
 }
 
 body {
-    background-color: #457B9D;
+    background-color: #00b4d8;
 }
 
-#body_productos {
-    background-color: #2a9d8f;
-}
-
-#body_sabanas {
-    background-color: #ef6f51;
-}
+/* ========================NAV PRINCIPAL============================= */
 
 header {
     display: flex;
@@ -127,11 +121,7 @@ header {
     cursor: default;
 }
 
-#li_4 {
-    border: solid 2px #000;
-    box-shadow: 0px 0px 20px #fff;
-    cursor: default;
-}
+
 
 #titulo {
     padding-top: 60px;
@@ -150,6 +140,8 @@ h1 {
     padding: 20px;
     border-radius: 2vh;
 }
+
+/* INDEX PRINCIPAL======================================== */
 
 .gancho {
     background-color: #ffffff;
@@ -360,6 +352,12 @@ h1 {
     width: 230px;
     border-radius: 20px;
     box-shadow: 8px 8px 30px#000;
+}
+
+
+/* ======================================BLANQUERÍA===================================== */
+#body__blanqueria {
+    background-color: #ef6f51;
 }
 
 /* SABANAAAAASSSSS */
