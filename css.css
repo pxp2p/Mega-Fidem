@@ -308,6 +308,7 @@ h1 {
 
 .opciones__idx {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 50px;
 }
@@ -795,5 +796,38 @@ h1 {
 
     .derechos p {
         font-size: 12px;
+    }
+
+    .opciones__right__nav {
+        gap: 0px;
+    }
+
+    .opciones__idx {
+        gap: -70px;
+        margin-left: 10px;
+    }
+
+    .opcion__blanqueria a {
+        border-radius: 3vh;
+        font-weight: 500;
+        width: 100px;
+        height: 150px;
+        font-size: 20px;
+    }
+
+    .opcion__prod a {
+        border-radius: 3vh;
+        font-weight: 500;
+        width: 100px;
+        height: 150px;
+        font-size: 20px;
+    }
+
+    .nav__derecho__productos {
+        margin-left: 0px;
+    }
+
+    .nav__derecho__productos__div {
+        padding: 100px 20px 100px 20px;
     }
 }
