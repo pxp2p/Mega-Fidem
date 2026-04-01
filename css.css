@@ -303,6 +303,8 @@ h1 {
     display: flex;
     justify-content: flex-end;
     gap: 20px;
+    align-items: center;
+
 }
 
 
@@ -438,6 +440,7 @@ h1 {
     transition: .4s;
     position: fixed;
     border: solid 2px #000;
+    z-index: 999;
 }
 
 #volver:hover {
@@ -760,7 +763,7 @@ h1 {
     }
 
     .mini_nav {
-        margin: 90px 80px;
+        margin: 90px 10px;
     }
 
     /*PRODUCTOS*/
@@ -821,12 +824,11 @@ h1 {
     }
 
     .opciones__right__nav {
-        gap: 0px;
+        gap: 30px;
     }
 
     .opciones__idx {
-        gap: -70px;
-        margin-left: 10px;
+        flex-direction: column;
     }
 
     .opcion__blanqueria a {
@@ -843,6 +845,7 @@ h1 {
         width: 100px;
         height: 150px;
         font-size: 20px;
+        text-align: center;
     }
 
     .nav__derecho__productos {
@@ -850,6 +853,12 @@ h1 {
     }
 
     .nav__derecho__productos__div {
-        padding: 100px 20px 100px 20px;
+        padding: 10px 20px 10px 20px;
+    }
+
+    .nav__derecho__productos__div h3 {
+        font-family: "Courgette";
+        font-size: 18px;
+        font-weight: 100;
     }
 }
