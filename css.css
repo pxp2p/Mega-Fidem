@@ -310,14 +310,13 @@ h1 {
 
 .opciones__idx {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    gap: 50px;
+    gap: 0px;
 }
 
 
 .opcion__blanqueria a {
-    border-radius: 30vh 2vh 10vh 0vh;
+    border-radius: 30vh 0vh 0vh 30vh;
     width: 400px;
     height: 450px;
     background-color: #ef6f51;
@@ -339,7 +338,7 @@ h1 {
 }
 
 .opcion__prod a {
-    border-radius: 2vh 30vh 0vh 10vh;
+    border-radius: 0vh 30vh 30vh 0vh;
     width: 400px;
     height: 450px;
     background-color: #2a9d8f;
@@ -717,7 +716,8 @@ h1 {
     align-items: center;
     justify-content: center;
     padding: 30px;
-    background: linear-gradient(360deg, #457B9D, #fff);
+    padding-bottom: 40px;
+    background: linear-gradient(360deg, #73b8e3, #fff);
 }
 
 .derechos p {
@@ -824,15 +824,17 @@ h1 {
     }
 
     .opciones__right__nav {
-        gap: 30px;
+        gap: 40px;
     }
 
     .opciones__idx {
         flex-direction: column;
+        flex-wrap: wrap;
+
     }
 
     .opcion__blanqueria a {
-        border-radius: 3vh;
+        border-radius: 10vh 10vh 0vh 0vh;
         font-weight: 500;
         width: 100px;
         height: 150px;
@@ -840,7 +842,7 @@ h1 {
     }
 
     .opcion__prod a {
-        border-radius: 3vh;
+        border-radius: 0vh 0vh 10vh 10vh;
         font-weight: 500;
         width: 100px;
         height: 150px;
