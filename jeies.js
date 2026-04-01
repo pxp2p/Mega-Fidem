@@ -50,8 +50,16 @@ santiWt.className = "whats";
 santiWt.target = "_blank";
 santiWt.href = "https://wa.me/message/";
 
+document.getElementById("vendedor").addEventListener("keydown", function (e) {
+    if (e.key === "Enter") {
+        venta();
+    }
+});
+
 function venta() {
     let nombreDelVendedor = document.getElementById("vendedor").value.toLowerCase().trim();
+
+
 
     switch (nombreDelVendedor) {
         case "joaco":
