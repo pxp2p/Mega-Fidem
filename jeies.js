@@ -48,7 +48,7 @@ let santiWt = document.createElement("a");
 santiWt.innerText = "WhatsApp";
 santiWt.className = "whats";
 santiWt.target = "_blank";
-santiWt.href = "https://wa.me/message/";
+santiWt.href = "https://wa.me/message/I3WE55CPNVKEM1";
 
 document.getElementById("vendedor").addEventListener("keydown", function (e) {
     if (e.key === "Enter") {
