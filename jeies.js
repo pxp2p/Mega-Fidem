@@ -3,7 +3,7 @@ kakoName.innerText = "Joaquin Pereira"
 
 
 let kako = document.createElement("a");
-kako.href = "https://wa.me/message/A4TRLPXUWPM6D1";
+kako.href = "https://wa.me/1128884710";
 kako.className = "whats"
 kako.innerText = "Whatsapp";
 kako.target = "_blank";
@@ -31,7 +31,7 @@ let mariWt = document.createElement("a");
 mariWt.innerText = "WhatsApp";
 mariWt.className = "whats";
 mariWt.target = "_blank";
-mariWt.href = "https://wa.me/message/HKZHXKUATXUMC1";
+mariWt.href = "https://wa.me/1121556495";
 
 // Santino Rigoni 
 
@@ -48,7 +48,7 @@ let santiWt = document.createElement("a");
 santiWt.innerText = "WhatsApp";
 santiWt.className = "whats";
 santiWt.target = "_blank";
-santiWt.href = "https://wa.me/message/";
+santiWt.href = "https://wa.me/2320512050";
 
 document.getElementById("vendedor").addEventListener("keydown", function (e) {
     if (e.key === "Enter") {
